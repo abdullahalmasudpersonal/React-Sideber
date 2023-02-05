@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Sideber from "./Components/Sideber";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <Sideber />
+      <div className="container">
+        <h1 className="title">My React App</h1>
+        <p className="info">Lorem lsadkf lksdfj asl asdfkls Lorem lsadkf lksdfj asl asdfkls Lorem lsadkf lksdfj asl asdfkls Lorem lsadkf lksdfj asl asdfkls Lorem lsadkf lksdfj asl asdfkls Lorem lsadkf lksdfj asl asdfkls  </p>
+        <button className="btn"> Explore Now</button>
+      </div>
     </div>
   );
 }
